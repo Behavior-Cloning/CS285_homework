@@ -1,0 +1,23 @@
+python cs285/scripts/run_hw5_expl.py --env_name PointmassEasy-v0 --use_rnd --unsupervised_exploration --exp_name q1_env1_rnd
+python cs285/scripts/run_hw5_expl.py --env_name PointmassEasy-v0 --unsupervised_exploration --exp_name q1_env1_random
+
+python cs285/scripts/run_hw5_expl.py --env_name PointmassMedium-v0 --use_rnd --unsupervised_exploration --exp_name q1_PointmassMedium-v0_rnd
+python cs285/scripts/run_hw5_expl.py --env_name PointmassMedium-v0 --unsupervised_exploration --exp_name q1_PointmassMedium-v0_random
+
+python cs285/scripts/run_hw5_expl.py --env_name PointmassHard-v0 --use_rnd --unsupervised_exploration --exp_name q1_PointmassHard-v0_rnd
+python cs285/scripts/run_hw5_expl.py --env_name PointmassHard-v0 --unsupervised_exploration --exp_name q1_PointmassHard-v0_random
+
+python cs285/scripts/run_hw5_expl.py --env_name PointmassHard-v0 --use_rnd --unsupervised_exploration --exp_name q1_PointmassHard-v0_rnd
+python cs285/scripts/run_hw5_expl.py --env_name PointmassHard-v0 --unsupervised_exploration --exp_name q1_PointmassHard-v0_random
+
+python cs285/scripts/run_hw5_expl.py --env_name PointmassVeryHard-v0 --use_rnd --unsupervised_exploration --exp_name q1_PointmassVeryHard-v0_rnd
+python cs285/scripts/run_hw5_expl.py --env_name PointmassVeryHard-v0 --unsupervised_exploration --exp_name q1_PointmassVeryHard-v0_random
+
+
+
+
+Q2：
+
+python cs285/scripts/run_hw5_expl.py --env_name PointmassMedium-v0 --exp_name q2_dqn --use_rnd --unsupervised_exploration --offline_exploitation --cql_alpha=0
+python cs285/scripts/run_hw5_expl.py --env_name PointmassMedium-v0 --exp_name q2_cql --use_rnd --unsupervised_exploration --offline_exploitation --cql_alpha=0.1
+

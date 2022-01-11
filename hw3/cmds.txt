@@ -1,0 +1,5 @@
+python cs285/scripts/run_hw3_dqn.py --env_name MsPacman-v0 --exp_name q1 --save_params
+
+
+python  cs285/scripts/run_hw3_actor_critic.py --env_name MountainCar-v0 -n 100 -b 5000  --discount 0.95 --exp_name qcar -ntu 10 -ngsptu 100  
+python  cs285/scripts/run_hw3_actor_critic.py --env_name CartPole-v0 -n 100 -b 1000 --exp_name qcar -ntu 10 -ngsptu 100
